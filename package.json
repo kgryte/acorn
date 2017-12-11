@@ -1,5 +1,5 @@
 {
-  "name": "acorn",
+  "name": "stdlib-acorn-patch",
   "description": "ECMAScript parser",
   "homepage": "https://github.com/ternjs/acorn",
   "main": "dist/acorn.js",
