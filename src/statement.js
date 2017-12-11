@@ -152,7 +152,7 @@ pp.parseBreakContinueStatement = function(node, keyword) {
       if (node.label && isBreak) break
     }
   }
-  if (i === this.labels.length) this.raise(node.start, "Unsyntactic " + keyword)
+  // if (i === this.labels.length) this.raise(node.start, "Unsyntactic " + keyword)
   return this.finishNode(node, isBreak ? "BreakStatement" : "ContinueStatement")
 }
 
