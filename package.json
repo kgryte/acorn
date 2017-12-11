@@ -37,7 +37,7 @@
     "lint": "eslint src/"
   },
   "bin": {
-    "acorn": "./bin/acorn"
+    "stdlib-acorn-patch": "./bin/acorn"
   },
   "devDependencies": {
     "eslint": "^4.10.0",
